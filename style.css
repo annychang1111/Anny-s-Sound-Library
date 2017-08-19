@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+body {
+	font-family: Roboto Mono, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#top_nav {
+	height: 8vh;
+	width: 100vw;
+	position: fixed;
+	background-color: #ee5260;
+	text-align: center;
+	z-index: 1000;
+
+}
+
+#top_nav li {
+	display: inline;
+}
+
+#top_nav a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	padding: 15px;
+}
+
+#top_nav a:hover {
+	color: #5b5b5b;
+}
+
+#home {
+	padding-top: 8vh;
+	height: 92vh;
+	z-index: 0;
+}
+
+#about {
+	padding-top: 8vh;
+	height: 92vh;
+	background-color: #5b5b5b;
+	z-index: 0;
+}
+
+#video {
+	padding-top: 8vh;
+	height: 92vh;
+	text-align: center;
+	z-index: 0;
+}
+
+#download {
+	padding-top: 8vh;
+	height: 92vh;
+	background-color: #5b5b5b;
+	text-align: center;
+	color: white;
+	z-index: 0;
+}
+
+#home_content {
+	padding-top: 5vh;
+}
+
+#home h1 {
+	color: black;
+	font-size: 60px;
+	text-align: center;
+}
+
+#home #pattern {
+	padding: 10vh;
+	text-align: center;
+}
+
+#pattern img {
+	padding: 2vw;
+	animation-name: pattern_rotate;
+	transition-timing-function: ease-in-out;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pattern_rotate {
+	50% {
+		transform: rotate(360deg);
+	}
+
+	100% {
+		transform: rotate(0);
+	}
+}
+
+#pattern img:hover {
+	transition-timing-function: ease-in;
+    animation-duration: 1s;
+	transform: scale(2, 2);
+}
+
+#about_left {
+	padding-top: 15vh;
+	padding-left: 7vw;
+	float: left;
+}
+
+#about_left h2 {
+	color: white;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#about_content {
+	width: 40vw;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+#about_right {
+	padding-right: 15vw;
+	padding-top: 10vh;
+	float: right;
+}
+
+#about_right img {
+	box-shadow: 5px -5px rgba(198, 198, 198, .5);
+}
+
+#video_content {
+	padding-top: 15vh;
+}
+
+#video_content h2 {
+	font-weight: 400;
+	font-style: italic;
+}
+
+#download_content {
+	padding-top: 40vh;
+	font-weight: 300;
+}
+
+#download a {
+	text-decoration: none;
+	color: #ee5260;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+#download a:hover {
+	text-decoration-line: underline;
+}
