@@ -108,8 +108,7 @@ body {
 
 #about_left h2 {
 	color: white;
-	font-weight: 400;
-	font-style: italic;
+	font-weight: 500;
 }
 
 #about_content {
@@ -135,8 +134,7 @@ body {
 }
 
 #video_content h2 {
-	font-weight: 400;
-	font-style: italic;
+	font-weight: 500;
 }
 
 #download_content {
@@ -145,10 +143,10 @@ body {
 }
 
 #download a {
+	font-weight: 500;
 	text-decoration: none;
 	color: #ee5260;
 	font-size: 25px;
-	font-style: italic;
 	font-weight: 400;
 }
 
